@@ -1,0 +1,49 @@
+## 常用`JS`框架
+
+### `DOM`操作工具
+
+- [Jquery](http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js)
+- [Zepto](http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js)
+- [Touchjs手势](https://github.com/Clouda-team/touch.code.baidu.com)
+- [Hammer.js手势](http://hammerjs.github.io/)
+- [Video.js视频](http://videojs.com/)
+- [Howler音频](https://github.com/goldfire/howler.js)
+
+### 页面适配
+
+- [flexible.js](https://github.com/sternelee/lib-flexible)
+- [Hotcss](https://github.com/sternelee/hotcss)
+- [Modernizr](https://github.com/Modernizr/Modernizr)
+
+
+### 翻页轮播单页面
+
+- [Swiper](http://www.swiper.com.cn/)
+- [pageSwitch 页面切换库](https://github.com/sternelee/pageSwitch)
+- [fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+
+### `3D`制作
+
+- [Three.js](http://threejs.org/)
+- [css3d-engine](https://github.com/shrekshrek/css3d-engine)
+
+
+### `js`动画引擎
+
+- [anime-js](http://anime-js.com/)
+- [TweenMax](http://greensock.com/tweenmax)
+
+### `Canvas`动画等
+
+- [Layabox](http://www.layabox.com/)
+- [白鹭引擎](https://www.egret.com/)
+- [createjs](http://www.createjs.cc/)
+- [pixi.js](http://www.pixijs.com/)
+
+### `SVG`表格，图示
+
+- [Echarts.js百度](http://echarts.baidu.com/index.html)
+- [Chart.js图表绘制](http://www.bootcss.com/p/chart.js/)
+- [D3](http://d3js.org/)
+- [mojs运动](https://github.com/legomushroom/mojs)
+
