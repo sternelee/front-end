@@ -9,6 +9,7 @@
     - [阮一峰的博客](http://www.ruanyifeng.com/blog/2016/01/babel.html)
 - [JSX](https://hulufei.gitbooks.io/react-tutorial/content/jsx-in-depth.html)
 - [CSS Module](https://github.com/camsong/blog/issues/5)
+- [React小书](http://huziketang.com/books/react/)
 
 
 ### 工具篇
@@ -38,6 +39,7 @@
 - PC桌面UI
     - [Antd](https://ant.design/) 阿里蚂蚁金服的企业级 `UI`框架，面向 `react` 和 `RN` 
     - [material-ui](http://www.material-ui.com/#/get-started/usage) 谷歌UI
+    - [react desktop](http://reactdesktop.js.org/)
 - Mobile手机UI
     - [nativebase](https://nativebase.io/)
     - [react-native-ui-kitten](https://akveo.github.io/react-native-ui-kitten/#/home)
@@ -59,6 +61,15 @@
     - [create-react-native-app](https://github.com/react-community/create-react-native-app) 官方的快速创建RN模板
 - [expo](https://expo.io/)
     - 使用 `RN` 的通用开发工具
+- [proton-native](https://github.com/kusti8/proton-native)
+    - 使用`React`开发桌面应用
+
+### IDE篇
+
+- [VSCode](https://code.visualstudio.com/)
+    - 微软出品，插件全面
+- [Deco IDE](https://www.decoide.org/)
+- [reactotron](https://github.com/infinitered/reactotron)
 
 ### 路由篇
 
@@ -66,8 +77,6 @@
     - 用于`web`和`native`的路由框架
 - [react-navigation](https://reactnavigation.org/)
     - `react native` 专用的菜单导航
-
-
 
 ### 后端篇
 
