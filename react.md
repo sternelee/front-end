@@ -1,5 +1,14 @@
 
-总结 `react` 开发是需要用到的框架和功能模块，从模块安装、脚手架、网络请求模块，到状态管理、数据库，以及原生开发的组件与UI，都简单地做了记录，方便开发时查询。
+总结 [react](https://reactjs.org/) 开发是需要用到的框架和功能模块，从模块安装、脚手架、网络请求模块，到状态管理、数据库，以及原生开发的组件与UI，都简单地做了记录，方便开发时查询。
+
+### 语法篇
+
+- [ES6](http://es6.ruanyifeng.com/)
+    [es6 api](http://es6-features.org/#Constants)
+- [babel](https://babeljs.cn/)
+    - [阮一峰的博客](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+- [JSX](https://hulufei.gitbooks.io/react-tutorial/content/jsx-in-depth.html)
+- [CSS Module](https://github.com/camsong/blog/issues/5)
 
 
 ### 工具篇
@@ -19,6 +28,7 @@
 
 - [redux](http://cn.redux.js.org/index.html)
     - `Redux` 是 `JavaScript` 状态容器，提供可预测化的状态管理。
+    - `Action`, `Reducer`, `Store`
 - [mobx](http://cn.mobx.js.org/)
     - `mobx` 提供简单、可扩展的状态管理
     - [mobx-state-tree](https://www.npmjs.com/package/mobx-state-tree) 快速创建状态管理模型
@@ -38,9 +48,9 @@
 - [faker](https://www.npmjs.com/package/faker)
     - 生成模拟数据
 - [GraphQL](http://graphql.org/)
-    - `APP` 的通用数据库
-- [Relay](https://facebook.github.io/relay/)
-    - 前端数据库
+    - 面向`APP` 的描述型数据库
+    - [Apolo](https://www.apollographql.com/)
+    - [Relay](https://facebook.github.io/relay/)
 
 ### 原生篇
 
@@ -49,3 +59,21 @@
     - [create-react-native-app](https://github.com/react-community/create-react-native-app) 官方的快速创建RN模板
 - [expo](https://expo.io/)
     - 使用 `RN` 的通用开发工具
+
+### 路由篇
+
+- [React Router](https://reacttraining.com/react-router/)
+    - 用于`web`和`native`的路由框架
+- [react-navigation](https://reactnavigation.org/)
+    - `react native` 专用的菜单导航
+
+
+
+### 后端篇
+
+- [next](https://github.com/zeit/next.js/)
+    - `React` 后端服务渲染框架
+- [gatsby](https://www.gatsbyjs.org/)
+    - 用于建站的后端框架
+- [react-server](https://react-server.io/)
+    - [官方](https://reactjs.org/docs/react-dom-server.html)
