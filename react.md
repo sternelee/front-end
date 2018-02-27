@@ -64,12 +64,12 @@
 - [expo](https://expo.io/)
     - 使用 `RN` 的通用开发工具
 - [proton-native](https://github.com/kusti8/proton-native)
-    - 使用`React`开发桌面应用
+    - 使用 `React` 开发桌面应用
 
 ### IDE篇
 
 - [VSCode](https://code.visualstudio.com/)
-    - 微软出品，插件全面
+    - 微软出品,插件全面
 - [Deco IDE](https://www.decoide.org/)
 - [reactotron](https://github.com/infinitered/reactotron)
 
