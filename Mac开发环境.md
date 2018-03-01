@@ -26,6 +26,13 @@
 - /usr/local/etc/nginx/nginx.conf
 - nginx will load all files in /usr/local/etc/nginx/servers/.
 
+```bash
+sudo nginx
+sudo nginx -s stop
+brew services list
+brew services stop nginx
+// reload start
+```
 ### [awesome-finder](https://github.com/mingrammer/awesome-finder)
 
 
