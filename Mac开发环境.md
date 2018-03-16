@@ -51,3 +51,4 @@ brew services stop nginx
 ### bash
 
 - brew linkapps
+- 更改终端打开应用的命令方式 `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl` 或者更新zsh的全局变量
