@@ -27,7 +27,7 @@
 - nginx will load all files in /usr/local/etc/nginx/servers/.
 
 ```bash
-sudo nginx
+sudo nginx (启动)
 sudo nginx -s stop
 brew services list
 brew services stop nginx
@@ -52,3 +52,5 @@ brew services stop nginx
 
 - brew linkapps
 - 更改终端打开应用的命令方式 `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl` 或者更新zsh的全局变量
+
+- 隐藏文件 shift+cmmand+.
