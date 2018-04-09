@@ -20,6 +20,7 @@
 
 ### nginx
 
+- nginx -h 显示配置
 - sudo brew services start nginx
 - nginx -s reload / nginx -s stop
 - Docroot is: /usr/local/var/www

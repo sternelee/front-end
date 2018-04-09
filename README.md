@@ -6,4 +6,4 @@
 * [UI框架](./UI框架.md)
 * [Mac开发环境](./Mac开发环境.md)
 * [React常用依赖框架](./react.md)
-* [You-Dont-Know-JS](./You-Dont-Know-JS .md)
+* [You-Dont-Know-JS](./You-Dont-Know-JS.md)
