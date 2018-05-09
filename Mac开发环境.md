@@ -20,12 +20,23 @@
 
 ### nginx
 
+[使用](https://segmentfault.com/a/1190000005090828)
+
 - nginx -h 显示配置
 - sudo brew services start nginx
 - nginx -s reload / nginx -s stop
 - Docroot is: /usr/local/var/www
 - /usr/local/etc/nginx/nginx.conf
 - nginx will load all files in /usr/local/etc/nginx/servers/.
+
+# 启动 nginx服务
+sudo nginx
+
+# 重新加载配置|重启|停止|退出 nginx
+nginx -s reload|reopen|stop|quit
+
+#测试配置是否有语法错误
+nginx -t
 
 ```bash
 sudo nginx (启动)
