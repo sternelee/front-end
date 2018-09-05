@@ -1,3 +1,4 @@
+// https://prettier.io/docs/en/options.html
 // prettier.config.js or .prettierrc.js
 module.exports = {
     // 指定打印机将换行的行长度
