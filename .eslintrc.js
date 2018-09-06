@@ -1,5 +1,4 @@
-// https://eslint.org/docs/user-guide/configuring
-// https://blog.csdn.net/mafan121/article/details/77965252
+// http://eslint.cn/docs/rules/
 module.exports = {
     // 允许的核心规则
     extends: 'eslint:recommended',
