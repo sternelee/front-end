@@ -50,8 +50,8 @@ module.exports = {
     rules: {
         // 禁止使用没有定义的变量，除非在／＊global＊／已经申明
         'no-undef': 2,
-        // 缩进，以一个tab
-        'indent': [1, 2],
+        // 缩进，以四个空格为准，支持switch语句
+        'indent': [2, 4, {'SwitchCase': 1}],
         // 使用单引号
         'quotes': [2, 'single', 'avoid-escape'],
         // 逗号前面不需要加空格，而逗号后面需要添加空格
