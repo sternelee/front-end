@@ -12,7 +12,7 @@ module.exports = {
     // 使用单引号而不是双引号
     singleQuote: true,
     // 多行时尽可能打印尾随逗号
-    trailingComma: "all",
+    trailingComma: "es5",
     // 在对象文字中打印括号之间的空格
     bracketSpacing: true,
     // 将>多行JSX元素放在最后一行的末尾，而不是单独放在下一行（不适用于自闭元素）
