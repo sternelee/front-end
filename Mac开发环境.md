@@ -88,3 +88,5 @@ brew services start php@7.1
 
 - 隐藏文件 shift+cmmand+.
 - curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+
+### travis T7ffeKKZWXGx9LIdrL95LQ
