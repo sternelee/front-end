@@ -1,4 +1,5 @@
-//https://zhuanlan.zhihu.com/p/29970355
+// https://zhuanlan.zhihu.com/p/29970355
+// https://palantir.github.io/tslint/rules/
 {
     "defaultSeverity": "error",
     "extends": [
@@ -34,6 +35,9 @@
         "no-parameter-reassignment": true,// 不允许修改方法输入参数
         "prefer-for-of": true,// 如果for循环中没有使用索引，建议是使用for-of
         "eofline": true,  // 确保文件以换行符结尾
+        "no-string-literal": true,  // 禁止字符串文字属性访问
+        "quotemark": true,   // 字符串文字属性要用双引号
+        "trailing-comma": true,  // 尾随逗号
 
         // 功能特性
         "await-promise": true,// 不允许没有Promise的情况下使用await
