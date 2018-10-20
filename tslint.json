@@ -66,6 +66,7 @@
         "restrict-plus-operands": true,// 不允许自动类型转换，如果已设置不允许使用关键字var该设置无效
         "triple-equals": true,// 必须使用恒等号，进行等于比较
         "use-isnan": true,// 只允许使用isNaN方法检查数字是否有效
+        "arrow-parens": false,  // 围绕箭头函数定义的参数需要括号
 
         // 维护性功能
         "indent": [true, "spaces", 4],// 每行开始以4个空格符开始
