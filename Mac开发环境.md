@@ -63,7 +63,7 @@ https://www.jianshu.com/p/2ba7820883ba
 
 ##The php.ini and php-fpm.ini file can be found in:
 ##    /usr/local/etc/php/7.1/
-## To have launchd start php@7.1 now and restart at login:
+## To have launched start php@7.1 now and restart at login:
 brew services start php@7.1
 ## Or, if you don't want/need a background service you can just run:
   php-fpm
@@ -90,3 +90,5 @@ brew services start php@7.1
 - curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 
 ### travis T7ffeKKZWXGx9LIdrL95LQ
+
+### mariadb.db lee123
