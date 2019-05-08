@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo</title>
+    <!-- <script src="./UUID.js"></script> -->
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+    'use strict';
+
+var UA = navigator.userAgent.toLocaleLowerCase();
+
+var isMobile = /mobile|android|iphone|ipad|iemobile/i.test(UA);
+
+var isXlPC = /[ ]thunder\/[\d.]*/.test(UA) || !!window.native && !isMobile;
+
+var isXlMB = /thunder/.test(UA) && isMobile;
+
+var isXl9 = /[ ]thunder\/10.0([\d.]*)/.test(UA) || /[ ]thunder\/9.([\d.]*)/.test(UA);
+
+var isXlx = /[ ]thunder\/10.1([\d.]*)/.test(UA) || !/thunder/.test(UA) && !!window.native;
+
+var isXdas = /[ ]thunderx[/ ]*[\d.]*/.test(UA);
+
+var isWeixin = /micromessenger/.test(UA);
+
+// const CheckBrowserTypes = ['msie', 'electron', 'thunder', 'micromessenger', '360', 'mqqbrowser', 'qqbrowser', 'ubrowser', 'metasr', 'edge', 'firefox', 'maxthon', '2345explorer', 'lbbrowser', 'android.thunder', 'ios.thunder', 'chrome']
+// const CheckBrowser = ['IE', '??X', '??', '??', '360???', '??QQ??', 'QQ???', 'UC???', '?????', 'Edge???', '??', '??', '2345', '??', '????', '????', 'Chrome']
+var CheckBrowserTypes = ['Trident', 'Electron','Android.Thunder', 'IOS.Thunder', 'Thunder', 'MicroMessenger', '360','MQQBrowser', 'QQBrowser', 'UCBrowser', 'UBrowser', 'Metasr', 'Edge', 'Firefox', 'Maxthon', 'Chrome', 'Safari'];
+
+// ??mimeTypes???360
+var mimeTypes = function mimeTypes(option, value) {
+    var mimeTypes = navigator.mimeTypes;
+    for (var mt in mimeTypes) {
+        if (mimeTypes[mt][option] == value) {
+            return true;
+        }
+    }
+    return false;
+};
+var _BrowserType = function () {
+    for (var len = CheckBrowserTypes.length - 1, i = 0; i <= len; i++) {
+        var u = CheckBrowserTypes[i];
+        if (u === '360') {
+            if (mimeTypes('type', 'application/vnd.chromium.remoting-viewer')) return u;else continue;
+        }
+        if (UA.indexOf(u.toLowerCase()) > -1) return u;else continue;
+    }
+    return 'unknown';
+}();
+
+var BrowserType = function () {
+    var Platfrom = isMobile ? 'Mobile-' : 'PC-';
+    var Type = _BrowserType == 'Trident' ? 'IE' : _BrowserType;
+    return Platfrom + Type;
+}();
+
+var BrowserVersion = function () {
+    var type = _BrowserType.toLowerCase();
+    if (type.indexOf('unknown') > 0) return 'unknown';
+    if (type == 'trident') {
+        if (UA.indexOf('gecko') > 0) return 'IE/11';else return 'IE/' + UA.match(/msie (\d+)/)[1];
+    }
+    if (type == '360' || type == 'android.thunder') type = 'chrome';
+    if (type == 'ios.thunder') type = 'safari';
+    type = type.toLowerCase()
+    var reg = new RegExp(type + '[ /][\\d.]+');
+    var _uas = UA.match(reg)
+    return _uas.length >= 0 && !!_uas ? _uas[0]: 'unknown';
+}();
+
+document.body.innerHTML =UA + '<br/><br/>' +  BrowserType + '               <br/><br/>' + BrowserVersion;
+    </script>
+</body>
+</html>

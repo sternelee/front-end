@@ -47,6 +47,27 @@ brew services stop nginx
 ```
 ### [awesome-finder](https://github.com/mingrammer/awesome-finder)
 
+### php
+https://www.jianshu.com/p/2ba7820883ba
+
+```bash
+## To enable PHP in Apache add the following to httpd.conf and restart Apache:
+##    LoadModule php7_module /usr/local/opt/php@7.1/lib/httpd/modules/libphp7.so
+
+##    <FilesMatch \.php$>
+##        SetHandler application/x-httpd-php
+##    </FilesMatch>
+
+##Finally, check DirectoryIndex includes index.php
+##    DirectoryIndex index.php index.html
+
+##The php.ini and php-fpm.ini file can be found in:
+##    /usr/local/etc/php/7.1/
+## To have launched start php@7.1 now and restart at login:
+brew services start php@7.1
+## Or, if you don't want/need a background service you can just run:
+  php-fpm
+```
 
 ### 常用快捷键
 
@@ -66,3 +87,8 @@ brew services stop nginx
 - 更改终端打开应用的命令方式 `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl` 或者更新zsh的全局变量
 
 - 隐藏文件 shift+cmmand+.
+- curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+
+### travis T7ffeKKZWXGx9LIdrL95LQ
+
+### mariadb.db lee123
